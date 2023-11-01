@@ -9,7 +9,7 @@ class Player
     end
 
     def energy_left?
-        @energy >= 0 
+        @energy > 0 
     end
 
 end
